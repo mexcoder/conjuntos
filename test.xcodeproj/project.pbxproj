@@ -6,10 +6,29 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		0EBCCA4A1ACEFB4E00FAB29C /* conjuntos.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = conjuntos.cpp; sourceTree = "<group>"; };
+		0EBCCA4B1ACEFB4E00FAB29C /* conjuntos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = conjuntos.h; sourceTree = "<group>"; };
+		0EBCCA4C1ACEFB4E00FAB29C /* lex.yy.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lex.yy.c; sourceTree = "<group>"; };
+		0EBCCA4D1ACEFB4E00FAB29C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0EBCCA4E1ACEFB4E00FAB29C /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; usesTabs = 1; };
+		0EBCCA4F1ACEFB4E00FAB29C /* reglas.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = reglas.l; sourceTree = "<group>"; };
+		0EBCCA501ACEFB4E00FAB29C /* reglas copia.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = "reglas copia.l"; sourceTree = "<group>"; };
+		0EBCCA511ACEFB4E00FAB29C /* structs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = structs.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		0EBCCA3F1ACEFB1F00FAB29C = {
 			isa = PBXGroup;
 			children = (
+				0EBCCA4A1ACEFB4E00FAB29C /* conjuntos.cpp */,
+				0EBCCA4B1ACEFB4E00FAB29C /* conjuntos.h */,
+				0EBCCA4C1ACEFB4E00FAB29C /* lex.yy.c */,
+				0EBCCA4D1ACEFB4E00FAB29C /* main.cpp */,
+				0EBCCA4E1ACEFB4E00FAB29C /* makefile */,
+				0EBCCA4F1ACEFB4E00FAB29C /* reglas.l */,
+				0EBCCA501ACEFB4E00FAB29C /* reglas copia.l */,
+				0EBCCA511ACEFB4E00FAB29C /* structs.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -18,11 +37,12 @@
 /* Begin PBXLegacyTarget section */
 		0EBCCA441ACEFB2000FAB29C /* test */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION)";
+			buildArgumentsString = debug;
 			buildConfigurationList = 0EBCCA471ACEFB2000FAB29C /* Build configuration list for PBXLegacyTarget "test" */;
 			buildPhases = (
 			);
 			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "";
 			dependencies = (
 			);
 			name = test;
